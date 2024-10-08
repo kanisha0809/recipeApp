@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="recipe">Recipe</string>
+    <string name="home">Home</string>
+    <string name="feedback">Feedback</string>
+    <string name="timer">Timer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="instructions">Instructions:</string>
+    <string name="matcha_cake">Matcha Cake</string>
+    <string name="vanilla_cake">Vanilla Cake</string>
+    <string name="chocolate_cake">Chocolate Cake</string>
+    <string name="matcha_cake_recipe">Matcha Cake Recipe</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="_2_cups_all_purpose_flour_n_1_1_2_cups_sugar_n_1_2_cup_unsalted_butter_n_1_cup_milk_n_3_large_eggs_n_3_tbsp_matcha_powder_n_2_tsp_baking_powder_n_1_2_tsp_salt">- 2 cups all-purpose flour\n- 1 1/2 cups sugar\n- 1/2 cup unsalted butter\n- 1 cup milk\n- 3 large eggs\n- 3 tbsp matcha powder\n- 2 tsp baking powder\n- 1/2 tsp salt</string>
+    <string name="start_cooking_timer">Start Cooking Timer</string>
+    <string name="preheat_your_oven_to_350_f_175_c_n_cream_the_butter_and_sugar_until_fluffy_n_add_eggs_one_at_a_time_mixing_well_n_stir_in_milk_and_matcha_powder_n_combine_flour_baking_powder_and_salt_add_to_wet_mixture_n_pour_into_greased_pans_and_bake_for_25_30_minutes">- Preheat your oven to 350°F (175°C).\n- Cream the butter and sugar until fluffy.\n- Add eggs, one at a time, mixing well.\n- Stir in milk and matcha powder.\n- Combine flour, baking powder, and salt; add to wet mixture.\n- Pour into greased pans and bake for 25-30 minutes.</string>
+    <string name="blueberry_cake_recipe">Blueberry Cake Recipe</string>
+    <string name="blueberry_ingredients">- 2 cups all-purpose flour\n- 1 1/2 cups sugar\n- 1/2 cup unsalted butter\n- 1 cup milk\n- 3 large eggs\n- 1 tbsp vanilla extract\n- 2 cups fresh blueberries\n- 2 tsp baking powder\n- 1/2 tsp salt</string>
+    <string name="blueberry_instructions">- Preheat your oven to 350°F (175°C).\n- Cream the butter and sugar until fluffy.\n- Add eggs, one at a time, mixing well.\n- Stir in milk and vanilla.\n- Combine flour, baking powder, and salt; add to wet mixture.\n- Gently fold in blueberries and pour into greased pans.\n- Bake for 25-30 minutes.</string>
+    <string name="chocolate_cake_recipe">Chocolate Cake Recipe</string>
+    <string name="chocolate_ingredients">- 2 cups all-purpose flour\n- 2 cups sugar\n- 3/4 cup unsweetened cocoa powder\n- 1/2 cup unsalted butter\n- 1 cup milk\n- 3 large eggs\n- 2 tsp baking powder\n- 1 tsp baking soda\n- 1/2 tsp salt</string>
+    <string name="chocolate_instructions">- Preheat your oven to 350°F (175°C).\n- Cream the butter and sugar until fluffy.\n- Add eggs, one at a time, mixing well.\n- Stir in milk and cocoa powder.\n- Combine flour, baking powder, baking soda, and salt; add to wet mixture.\n- Pour into greased pans and bake for 30-35 minutes.</string>
+    <string name="lemon_cake_recipe">Lemon Cake Recipe</string>
+    <string name="lemon_ingredients">- 2 cups all-purpose flour\n- 1 1/2 cups sugar\n- 1/2 cup unsalted butter\n- 1 cup milk\n- 3 large eggs\n- 1/4 cup lemon juice\n- 1 tbsp lemon zest\n- 2 tsp baking powder\n- 1/2 tsp salt</string>
+    <string name="lemon_instructions">- Preheat your oven to 350°F (175°C).\n- Cream the butter and sugar until fluffy.\n- Add eggs, one at a time, mixing well.\n- Stir in milk, lemon juice, and lemon zest.\n- Combine flour, baking powder, and salt; add to wet mixture.\n- Pour into greased pans and bake for 25-30 minutes.</string>
+    <string name="strawberry_cake_recipe">Strawberry Cake Recipe</string>
+    <string name="strawberry_ingredients">- 2 cups all-purpose flour\n- 1 1/2 cups sugar\n- 1/2 cup unsalted butter\n- 1 cup milk\n- 3 large eggs\n- 1 cup fresh strawberries, pureed\n- 2 tsp baking powder\n- 1/2 tsp salt</string>
+    <string name="strawberry_instructions">- Preheat your oven to 350°F (175°C).\n- Cream the butter and sugar until fluffy.\n- Add eggs, one at a time, mixing well.\n- Stir in milk and strawberry puree.\n- Combine flour, baking powder, and salt; add to wet mixture.\n- Pour into greased pans and bake for 25-30 minutes.</string>
+    <string name="vanilla_cake_recipe">Vanilla Cake Recipe</string>
+    <string name="rate_our_app">Rate our app:</string>
+    <string name="enter_your_cooking_notes_or_review">Enter your cooking notes or review</string>
+    <string name="share_feedback_with_the_community">Share feedback with the community</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="whisk_bake_and_blossom_let_your_kitchen_creations_bloom_with_flavor_and_joy">Whisk, bake, and blossom—let your kitchen creations bloom with flavor and joy!</string>
+    <string name="bake_and_bloom">Bake and Bloom</string>
+    <string name="pick_your_cake">Pick your cake!</string>
+    <string name="strawberry_cake">Strawberry Cake</string>
+    <string name="lemon_cake">Lemon Cake</string>
+    <string name="chocolate_cakee">Chocolate Cake</string>
+    <string name="blueberry_cake">Blueberry Cake</string>
+    <string name="vanilla_cakee">Vanilla Cake</string>
+    <string name="matcha_cakee">Matcha Cake</string>
+    <string name="choose_a_recipe">Choose a Recipe</string>
+    <string name="selected_recipe_none">Selected Recipe: None</string>
+    <string name="time_remaining_00_00">Time Remaining: 00:00</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+
+</resources>

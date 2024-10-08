@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timer"
+    android:background="#E22E6E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_a_recipe"
+            android:textSize="36sp"
+            android:fontFamily="cursive"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/buttonStrawberry"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/strawberry_cake"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+
+            <Button
+                android:id="@+id/buttonVanilla"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/vanilla_cake"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+
+            <Button
+                android:id="@+id/buttonChocolate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/chocolate_cake"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+
+            <Button
+                android:id="@+id/buttonLemon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/lemon_cake"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+
+            <Button
+                android:id="@+id/buttonBlueberry"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/blueberry_cake"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+
+            <Button
+                android:id="@+id/buttonMatcha"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/matcha_cake"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+        </GridLayout>
+
+
+        <TextView
+            android:id="@+id/textViewRecipeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selected_recipe_none"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="cursive" />
+
+
+        <TextView
+            android:id="@+id/textViewTimeRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_remaining_00_00"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white" />
+
+
+        <SeekBar
+            android:id="@+id/seekBarStages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBarTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:progress="0"
+            android:max="100"
+            style="?android:attr/progressBarStyleHorizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/start"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+
+            <Button
+                android:id="@+id/buttonPause"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pause"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reset"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:alpha="0.6" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
